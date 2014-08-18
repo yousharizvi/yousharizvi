@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Yousha Rizvi</title>
+        <!--<link rel="stylesheet" href="{{ STATIC_URL }}css/bootstrap.min.css" />
+        <link rel="stylesheet" href="{{ STATIC_URL }}css/bootstrap.min.css"/>
+        <script src="{{ STATIC_URL }}js/jquery-2.1.1.min.js"></script>
+        <script src="{{ STATIC_URL }}js/bootstrap.min.js"></script>-->
+        
+		<link rel="stylesheet" href="http://bootswatch.com/cyborg/bootstrap.min.css"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.css"/>
+		<link rel="shortcut icon" type="image/png" href="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Windows_logo_-_2012.png/547px-Windows_logo_-_2012.png"/>
+
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+        <style>
+			.btn, input{l8
+				border-radius:0;
+			}
+			.footer{
+				position:fixed;
+				bottom:0;
+				right:0;
+				left:0;
+				background:#111;
+				padding:10px;
+			}
+			.nav a:hover i{
+				color:#ddd;
+			}
+        </style>
+        {% block extra_script %}
+		{% endblock %}
+    </head>
+    <body>
+    {% include 'nav.html' %}
+        <div class="container" style="margin-top:50px">
+			{% block content %}
+			{% endblock %}
+		</div>
+        
+        <footer class="footer">
+			<div class="container text-center">
+				By: Yousha Rizvi
+			</div>
+            
+        </footer>
+    </body>
+    <script>
+    $(function(){
+		$('[data-toggle="tooltip"]').each(function(){$(this).tooltip()})
+	})</script>
+</html>
