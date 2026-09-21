@@ -77,4 +77,4 @@ I've spent 12 years building scalable SaaS products across aerospace, fintech, a
 
 ---
 
-⭐ **Open to senior and lead roles in AI-first product engineering, remote or with relocation. Let's build something intelligent together.**
+⭐ **Always happy to talk AI-first engineering, LLM systems, and building great engineering teams. Let's build something intelligent together.**
